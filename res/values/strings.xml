@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UsbToComStanda</string>
+    <string name="baudRate">Baud rate</string>
+    <string-array name="baud_rate">
+        <item>110</item>
+        <item>300</item>
+        <item>600</item>
+        <item>9600</item>
+        <item>115200</item>
+        <item>128000</item>
+        <item>230400</item>
+        <item>256000</item>
+        <item>460800</item>
+        <item>921600</item>
+    </string-array>
+
+    <string-array name="stop_bits">
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="data_bits">
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="parity">
+        <item>None</item>
+        <item>Odd</item>
+        <item>Even</item>
+    </string-array>
+
+    <string-array name="flow_control">
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+        <item>COM5</item>
+    </string-array>
+</resources>

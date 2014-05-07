@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <!-- Settings -->
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="86dp"
+            android:background="#505050"
+            android:tag="configure block">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                >
+
+            <TextView
+                    android:id="@+id/baudRate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="2"
+                    android:gravity="center|bottom"
+                    android:text="Bit Rate" />
+
+            <Spinner
+                    android:id="@+id/baudRateValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#708070"
+                    android:gravity="center_horizontal|center"
+                    android:inputType="none" />
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                >
+            <TextView android:text="Stop(bits)"
+                      android:id="@+id/stopBit"
+                      android:layout_height="fill_parent"
+                      android:layout_width="fill_parent"
+                      android:gravity="center|bottom"
+                      android:layout_weight="2"
+                    >
+            </TextView>
+
+            <Spinner
+                    android:id="@+id/stopBitValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#708070"
+                    android:gravity="center_horizontal|center"
+                    android:inputType="none" />
+
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                >
+            <TextView android:text="Data(bit)"
+                      android:id="@+id/dataBit"
+                      android:layout_height="fill_parent"
+                      android:layout_width="fill_parent"
+                      android:gravity="center|bottom"
+                      android:layout_weight="2"
+                    >
+            </TextView>
+
+            <Spinner
+                    android:id="@+id/dataBitValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#708070"
+                    android:gravity="center_horizontal|center"
+                    android:inputType="none" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="86dp"
+                  android:background="#505050"
+                  android:tag="configure block"
+            >
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                >
+            <TextView android:text="Parity"
+                      android:id="@+id/parity"
+                      android:layout_height="fill_parent"
+                      android:layout_width="fill_parent"
+                      android:gravity="center|bottom"
+                      android:layout_weight="2"
+                    >
+            </TextView>
+
+            <Spinner
+                    android:id="@+id/parityValue"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="#708070"
+                    android:gravity="center_horizontal|center"
+                    android:inputType="none" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                >
+            <TextView android:text="COM"
+                      android:id="@+id/flowControl"
+                      android:layout_height="fill_parent"
+                      android:layout_width="fill_parent"
+                      android:gravity="center|bottom"
+                      android:layout_weight="2"
+                    >
+            </TextView>
+
+            <Spinner android:id="@+id/flowControlValue"
+                     android:layout_height="fill_parent"
+                     android:layout_width="fill_parent"
+                     android:layout_marginTop="5dp"
+                     android:layout_marginBottom="5dp"
+                     android:layout_marginRight="5dp"
+                     android:layout_marginLeft="5dp"
+                     android:gravity="center"
+                     android:inputType="none"
+                     android:background="#708070"
+                     android:layout_weight="1"
+                    />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                >
+            <TextView android:text=""
+                      android:id="@+id/textiewseting"
+                      android:layout_height="fill_parent"
+                      android:layout_width="fill_parent"
+                      android:gravity="center|bottom"
+                      android:layout_weight="2"
+                    >
+            </TextView>
+            <Button android:id="@+id/configButton"
+                    android:layout_height="wrap_content"
+                    android:layout_width="fill_parent"
+                    android:layout_margin="4dp"
+                    android:scaleType="centerInside"
+                    android:gravity="center"
+                    android:text="设置"
+                    android:layout_gravity="bottom" android:singleLine="false"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!-- Read byte -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+                  android:layout_width="fill_parent"
+                  android:layout_height="200dp"
+                  android:background="#505050"
+                  android:tag="Read block"
+                  android:layout_weight="1"
+            >
+
+
+        <TextView android:text = "Read\n(0)"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:id="@+id/ReadBytes"
+                  android:layout_height="fill_parent"
+                  android:layout_width="fill_parent"
+                  android:layout_weight="5"
+                />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_margin="4dp"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:layout_weight="1"
+                >
+
+            <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="4dp"
+                    android:background="#708070"
+                    android:editable="true"
+                    android:gravity="left|center"
+                    >
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_margin="4dp"
+                        >
+                    <TextView
+                            android:id="@+id/readTextView"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text=""
+                            />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Write byte -->
+
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="#505050"
+            android:tag="Write block" android:paddingBottom="10dp">
+
+        <TextView android:text = "Write\n(0)"
+                  android:textStyle="bold"
+                  android:gravity="center"
+                  android:id="@+id/WriteBytes"
+                  android:layout_height="fill_parent"
+                  android:layout_width="fill_parent"
+                  android:layout_weight="3"
+                />
+
+        <EditText
+                android:id="@+id/WriteValues"
+                android:layout_width="216dp"
+                android:text=""
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:background="#708070"
+                android:editable="true"
+                android:singleLine="true"
+                android:gravity="left"
+                />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:tag="configure block"
+                      android:layout_weight="3"
+                >
+            <Button android:id="@+id/WriteButton"
+                    android:layout_height="fill_parent"
+                    android:layout_width="fill_parent"
+                    android:layout_margin="1dp"
+                    android:gravity="center"
+                    android:scaleType="centerInside"
+                    android:text="Write"
+                    />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
